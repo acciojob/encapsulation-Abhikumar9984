@@ -5,6 +5,7 @@ public class RWOnly {
 
     public RWOnly(String name) {
         this.Name = name;
+        System.out.println(this.Name);
     }
 
     public static String getName() {
