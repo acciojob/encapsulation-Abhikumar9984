@@ -8,11 +8,17 @@ public class RWOnly {
         System.out.println(this.Name);
     }
 
-    public String getName() {
-        return Name;
+    public String getName(int priority) {
+        if(priority>=150)
+          return Name;
+        else
+            return "You not elligible";
     }
 
-    public void setName(String name) {
-        this.Name = name;
+    public void setName(String name , int priority) {
+        if(priority>=150)
+          this.Name = name;
+        else
+            return;
     }
 }
