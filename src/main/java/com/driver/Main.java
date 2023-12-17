@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        RWOnly r  = new RWOnly("Abhishek");
+        RWOnly r  = new RWOnly();
 
        // System.out.println(r.Name);
         //java: Name has private access in com.driver.RWOnly
